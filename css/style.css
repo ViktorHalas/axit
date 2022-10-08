@@ -1,0 +1,931 @@
+/*---------------------------------- БАННЕР И СОЦ СЕТИ ДО 250 СТРОКИ------------------------------------------------------------------*/
+.header{
+    width: 1510px;
+    height: 75px;
+    background-color: black;
+    margin: 0 auto;
+}
+.header-logo{
+    display: inline-block;
+    width: 183px;
+    height: 75px;
+    margin-left: 115px;
+    line-height: 75px;
+}
+.header-logo .header-logo__ax{
+    vertical-align: middle;
+}
+.header-logo .header-logo__it{
+    margin-left: 3px;
+    vertical-align: middle;
+}
+.header .header-navigation{
+    display: inline-block;
+    width: 570px;
+    height: 75px;
+    margin-left: 472px;
+}
+.header-navigation__item {
+    text-decoration: none;
+    display: inline-block;
+    width: 114px;
+    height: 75px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 75px;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.header-navigation__item:visited{
+    color: white;
+}
+.header-navigation__item:focus{
+    color:white;
+}
+.header-navigation__item:hover{
+    color: #EC7979;
+}
+.header-navigation__item:active{
+    color: white;
+}
+.banner{
+    margin: 0 auto;
+    width:1510px;
+    height: 951px;
+    background-image: url(../images/bg.png);
+}
+.banner::before{
+    content: '';
+	display: block;
+	width: 1510px;
+	height: 951px;
+	position: absolute;
+	background-color:rgba(0, 0, 0, .5);
+}
+.banner .banner-left{
+    display: inline-block;
+    margin-left: 170px;
+    margin-top: 208px;
+    width: 670px;
+}
+.banner .banner-left .banner-left__image{
+    position: relative;
+    width: 270px;
+    height: 100px;
+    line-height: 100px;
+}
+.banner-left__image .banner-left__image__ax{
+    vertical-align: middle;
+}
+.banner-left__image .banner-left__image__it{
+    vertical-align: middle;
+    margin-left: 5px;
+}
+.banner-left .banner-left__title{
+    position: relative;
+    width: 670px;
+    height: 168px;
+    margin-top: 73px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 56px;
+    align-items: center;
+    color: #FFFFFF;
+}
+.banner-left .banner-left__line{
+    margin-top: 55px;
+    width: 170px;
+    height: 0px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.banner-left .banner-left__subtitle{
+    width: 270px;
+    height: 42px;
+    margin-top: 42px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    color: #FFFFFF;
+}
+.banner-left .banner-left__download{
+    position: relative;
+    margin-top: 42px;
+    width: 270px;
+    height: 58px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 58px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+}
+.banner-right{
+    display: inline-block;
+    width: 470px;
+    height: 450px;
+    margin-top: 208px;
+    margin-left: 30px;
+    position: absolute;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+.banner-right .form__title{
+    margin-bottom: 45px;
+    margin-top: 0px;
+    width: 370px;
+    height: 90px;
+    margin-left: 50px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 90px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #333333;
+    
+}
+.banner-right .form__title_color{
+    color:#EC7979
+}
+
+.form__group{
+    margin-left: 50px;
+}
+.form__input{
+    margin-top: 0px;
+    margin-bottom: 33px;
+    width: 370px;
+    height: 38px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+    color: black;
+}
+.form__input:focus{
+    color:black;
+    border-bottom: 1px solid black;
+}
+.form__started{
+    position: absolute;
+    bottom:0;
+    width: 470px;
+    height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 60px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-color: #EC7979;
+    border-radius: 0 0 10px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.social{
+    margin: 0 auto;
+    margin-bottom: 99px;
+    width: 1510px;
+    height: 140px;
+    background: #F8EFEF;
+}
+.social-right{
+    display: inline-block;
+    width: 470px;
+    height: 140px;
+    margin-left: 170px;
+}
+.social-right .social-right__title{
+    width: 470px;
+    height: 60px;
+    vertical-align: middle;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    align-items: center;
+    text-transform: capitalize;
+    color: #333333;
+}
+.social-right__subtitle{
+    width: 470px;
+    height: 42px;
+    margin-top: 18px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    color: #86878B;
+}
+.social-left {
+    position: absolute;
+    display: inline-block;
+    height: 140px;
+    width: 800px;
+}
+.social-left .social-left__image{
+    margin-top: 35px;
+    margin-left: 30px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------- tab до 360 строки--------------------------------------------------------------------*/
+.main {
+    margin-top: 99px;
+    margin: 0 auto;
+    width: 1170px;
+    height: 540px;
+    margin-bottom: 50px;
+}
+.tab {
+    position: relative;
+    top: 1px;
+}
+.tab__one{
+    display: inline-block;
+    width: 203px;
+    height: 40px;
+    border: 1px solid #C6CBCD;
+    border-radius: 5px 5px 0px 0px;
+    border-bottom: none;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    color: #333333;
+    text-align: center;
+}
+.tab__two {
+    display: inline-block;
+    width: 184px;
+    height: 40px;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 40px;
+    color: #333333;
+    text-align: center;
+}
+.border-line {
+    position: absolute;
+    margin-left: 1px;
+    width: 203px;
+    height: 1px;
+    background: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 1;
+}
+.container {
+    width: 1170px;
+    height: 501px;
+    margin:0 auto;
+    border: 1px solid #C6CBCD;
+}
+.container-left{
+    display: inline-block;
+    margin-left: 100px;
+}
+.container-left__title{
+    margin-top: 0px;
+    margin-bottom: 27px;
+    width: 570px;
+    height: 127px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+.container-left__text{
+    margin-bottom: 27px;
+    width: 570px;
+    height: 210px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.container-left__buttom {
+    width: 270px;
+    height: 58px;
+    background: #EC7979;
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 58px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+.container-right{
+    display: inline-block;
+    float: right;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------- awesome до 440 строки --------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+.awesome {
+    margin:0 auto;
+    margin-top: 0px;
+    width: 1170px;
+    height: 665px;
+    margin-bottom: 58px;
+}
+.awesome .awesome__title {
+    height: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    color: #000000;
+}
+.awesome .awesome__subtitle {
+    width: 170px;
+    height: 0px;
+    border: 1px solid #EC7979;
+    margin:0 auto;
+}
+.awesome .awesome__text {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0 71px 0;
+    color: #86878B;
+}
+
+.awesome .blocks {
+    display: inline-block;
+    width: 370px;
+    height: 383px;
+}
+.awesome .blocks .blocks__img {
+    margin:0 100px 0 100px;
+}
+.awesome .blocks .blocks__h3 {
+    height: 100px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+    margin:0 0 8px 0;
+}
+.awesome .blocks .blocks__p {
+    height: 105px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 58px;
+    color: #000000;
+}
+.margin {
+    margin: 0 26px 0 26px;
+}
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------- PRISE до 580--------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+.price{
+    width: 1510px;
+    height: 900px;
+    margin: 0 auto;
+    background: #F5F5F5;
+}
+.price__title{
+    width: 1170px;
+    height:150px;
+    padding-top: 50px;
+    margin: 0px 0px 0px 170px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.price__line{
+    margin: 0 auto;
+    width: 170px;
+    height: 0px;
+    border-bottom: 1px solid #EC7979;;
+}
+.price__subtitle{
+    margin-top: 40px;
+    margin-left: 170px;
+    margin-bottom: 59px;
+    width: 1170px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+.tariff{
+    margin: 0 auto;
+    width: 1170px;
+    height: 530px;
+}
+.tariff-basic{
+    width: 370px;
+    height: 510px;
+    margin-top:20px;
+    margin-right: 25px;
+    display: inline-block;
+    box-sizing:border-box;
+
+}
+.tariff-optima{
+    position: relative;
+    bottom:20px;
+    width: 370px;
+    height: 510px;
+    margin-right: 25px;
+    display: inline-block;
+    filter: drop-shadow(0px 4px 10px rgba(51, 51, 51, 0.2));
+    box-sizing: border-box;
+}
+.tariff-pro{
+    width: 370px;
+    height: 510px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.tariff__title{
+    box-sizing:border-box;
+    width: 370px;
+    height: 60px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 60px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #FFFFFF;
+
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+.tariff__price{
+    box-sizing:border-box;
+    width: 370px;
+    height: 100px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+
+    background: #333333;
+    border: 2px solid #F5F5F5;
+}
+.tariff__for-life{
+    box-sizing:border-box;
+    width: 370px;
+    height: 50px;
+    background: #333333;
+    border: 2px solid #F5F5F5;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.5);
+}
+.tariff__gb{
+    box-sizing:border-box;
+    width: 370px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 2px solid #F5F5F5;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 50px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #86878B;
+}
+/*-------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*----------------------------------REWIEWS ДО 708 СТРОКИ--------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------------------------------------------------*/
+.rewiews{
+    width: 1170px;
+    height: 630px;
+    margin: 0 auto;
+    position: relative;
+    margin-top: 50px;
+}
+.rewiews__title{
+    width: 1170px;
+    height:150px;
+    margin: 0px 0px 0px 0px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.rewiews__line{
+    margin: 0 auto;
+    width: 170px;
+    height: 0px;
+    border-bottom: 1px solid #EC7979;
+}
+.rewiews__subtitle{
+    margin-top: 40px;
+    margin-bottom: 83px;
+    width: 1170px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+
+.rewiews-blocks-one{
+    float: left;
+    width: 370px;
+    margin-right: 30px;
+    display: inline-block;
+}
+
+.rewiews-blocks-two{
+    position: absolute;
+    width: 370px;
+    margin-right: 25spx;
+    display: inline-block;
+}
+
+.rewiews-blocks-three{
+    width: 370px;
+    float: right;
+    display: inline-block;
+}
+.rewiews-blocks__comment{
+    box-sizing: border-box;
+    padding-top: 38px;
+    width: 370px;
+    height: 180px;
+    background: #E2E2E2;
+    border-radius: 10px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+
+    color: #86878B;
+}
+.rewiews-blocks__triangle{
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 20px solid #E2E2E2;
+    margin-left: 75px;
+}
+.rewiews-blocks__profile{
+    margin-top: 46px;
+}
+.rewiews-blocks__image{
+    display: inline-block;
+    margin-right: 30px;
+}
+.rewiews-blocks__person{
+    position: absolute;
+    display: inline-block;
+    width: 270px;
+}
+.rewiews-blocks__name{
+    width: 269px;
+    height: 54px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 54px;
+    text-transform: capitalize;
+    color: #000000;
+
+}
+.rewiews-blocks__profession{
+    margin-top: 15px;
+    width: 269px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*---------------------------------------BANNER 2--до 780 строки---------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.second-banner{
+    margin: 0 auto;
+    margin-top: 64px;
+    width:1510px;
+    height: 442px;
+    background-image: url(../images/BG1.png);
+}
+.second-banner::before{
+    content: '';
+	display: block;
+	width: 1510px;
+	height: 442px;
+	position: absolute;
+	background-color:rgba(0, 0, 0, .5);
+}
+.second-banner__title{
+    position: relative;
+    width: 1170px;
+    height:150px;
+    padding-top: 50px;
+    margin: 0 auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.second-banner__line{
+    margin: 0 auto;
+    width: 170px;
+    height: 0px;
+    border-bottom: 1px solid #FFFFFF;
+}
+.second-banner__subtitle{
+    margin:40px 0px 73px 170px ;
+    width: 1170px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.second-banner__button{
+    position: relative;
+    margin-left: 570px;
+    width: 370px;
+    height: 58px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 58px;
+    cursor: pointer;
+    text-align: center;
+    color: white;
+    background-color: transparent;
+    border: 2px solid #FFFFFF;
+}
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*--------------------------CONTACT US-----------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.contacts{
+    position: relative;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 1170px;
+    height: 630px;
+}
+.contacts__title{
+    width: 1170px;
+    height:150px;
+    margin: 0 auto;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 150px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+.contacts__line{
+    margin: 0 auto;
+    width: 170px;
+    height: 0px;
+    border-bottom: 1px solid #EC7979;
+}
+.contacts__subtitle{
+    margin:40px 0px 89px 0px ;
+    width: 1170px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+}
+.contacts-form{
+    width: 1170px;
+}
+.contacts-form-left{
+    width: 571px;
+    display: inline-block;
+}
+.contacts-form-left-input{
+    margin-bottom: 50px;
+}
+.contacts-form-left-input__type{
+    width: 571px;
+    height: 38px;
+    vertical-align: text-top;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+    color: black;
+}
+.contacts-form-left-input__type:focus{
+    color:black;
+    border-bottom: 1px solid black;
+}
+.contacts-form-right{
+    float: right;
+    display: inline-block;
+}
+.contacts-form-right__textarea{
+    width: 569px;
+    height: 215px;
+    margin-top: 4px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    border: none;
+    border-bottom: 1px solid #BDBDBD;
+    background-color: transparent;
+    outline: none;
+    transition: 0.3s;
+    color: black;
+    resize: none;
+}
+.contacts-form-right__textarea:focus{
+    color:black;
+    border-bottom: 1px solid black;
+}
+.contacts-form__button{
+    margin: 0 auto;
+    margin-left: 400px;
+    width: 370px;
+    height: 58px;
+    background: #EC7979;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 58px;
+    align-items: center;
+    text-align: center;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: #FFFFFF;
+    border: none;
+}
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------FOOTER-----------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------------------------------------*/
+.footer{
+    box-sizing: border-box;
+    padding-top: 35px;
+    width: 1510px;
+    height: 164px;
+    margin: 0 auto;
+    background: #000000;
+}
+.footer-images{
+    margin-left: 470px;
+}
+.footer-images__icon{
+    margin-right: 33px;
+}
+.footer-tm{
+    width: 1170px;
+    height: 21;
+    margin-left: 170px;
+    margin-top: 28px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+}
